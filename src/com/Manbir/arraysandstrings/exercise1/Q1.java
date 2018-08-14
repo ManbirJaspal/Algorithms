@@ -1,4 +1,4 @@
-package arraysandstrings.exercise1;
+package com.Manbir.arraysandstrings.exercise1;
 
 public class Q1 {
 

@@ -1,4 +1,4 @@
-package arraysandstrings.exercise1;
+package com.Manbir.arraysandstrings.exercise1;
 
 public class Q3 {
 //    Write a function that when given a char array replaces all ‘b’s with ‘9’s

@@ -1,4 +1,4 @@
-package arraysandstrings.exercise1;
+package com.Manbir.arraysandstrings.exercise1;
 
 public class Q4 {
 //    Write a function that when given a string array outputs “police” when it encounters “cop” and “robber” when it encounters “thief”
@@ -7,6 +7,7 @@ public class Q4 {
 
         String[] str = new String[]{"cop", "thief"};
         funcQ4(str);
+
 
 
     }

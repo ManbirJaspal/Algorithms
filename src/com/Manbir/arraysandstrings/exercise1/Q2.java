@@ -1,4 +1,4 @@
-package arraysandstrings.exercise1;
+package com.Manbir.arraysandstrings.exercise1;
 
 public class Q2 {
     //Write a function that when given an integer array prints only the negative entries
