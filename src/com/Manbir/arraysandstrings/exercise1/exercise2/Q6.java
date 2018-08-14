@@ -5,11 +5,11 @@ public class Q6 {
 
     public static void main(String[] args) {
         Integer[] arr1 = new Integer[] {1,23,4, null, 5,6,7,null,7,8,null};
-        nullIndex(arr1);
+        getnullIndex(arr1);
 
     }
 
-    public static void nullIndex(Integer[] arr) {
+    public static void getnullIndex(Integer[] arr) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == null) {
                 System.out.println("null at index: " + i);

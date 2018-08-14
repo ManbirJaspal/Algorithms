@@ -7,9 +7,6 @@ public class Q4 {
 
         String[] str = new String[]{"cop", "thief"};
         funcQ4(str);
-
-
-
     }
 
     public static void funcQ4(String[] arr) {
