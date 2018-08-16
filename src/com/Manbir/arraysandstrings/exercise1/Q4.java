@@ -10,6 +10,9 @@ public class Q4 {
     }
 
     public static void funcQ4(String[] arr) {
+        if ((arr == null) || (arr.length == 0)){
+            System.out.println("empty array");
+        }
         for (String str : arr) {
             if (str.equals("cop")) {
                 System.out.println("police");

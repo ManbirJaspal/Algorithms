@@ -11,6 +11,9 @@ public class Q2 {
     }
 
     public static void printneg(int[] arr) {
+        if ((arr == null) || (arr.length == 0)){
+            System.out.println("empty array");
+        }
         for(int arrs: arr) {
             if (arrs < 0) {
                 System.out.println(arrs);

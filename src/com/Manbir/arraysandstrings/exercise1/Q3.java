@@ -9,6 +9,9 @@ public class Q3 {
     }
 
     public static void replaceB(char[] arr1) {
+            if ((arr1 == null) || (arr1.length == 0)){
+                System.out.println("empty array");
+            }
         for (int i = 0; i < arr1.length; i++) {
             if (Character.toLowerCase(arr1[i]) == 'b') {
                 arr1[i] = '9';

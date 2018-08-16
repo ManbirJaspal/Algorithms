@@ -10,6 +10,9 @@ public class Q6 {
     }
 
     public static void getnullIndex(Integer[] arr) {
+        if ((arr == null) || (arr.length == 0)){
+            System.out.println("empty array");
+        }
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == null) {
                 System.out.println("null at index: " + i);
