@@ -1,4 +1,4 @@
-package com.Manbir.arraysandstrings.exercise1.exercise2;
+package com.Manbir.arraysandstrings.exercise2;
 
 public class Q8 {
     //Write a function to reverse a given string

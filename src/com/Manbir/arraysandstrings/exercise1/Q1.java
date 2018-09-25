@@ -1,22 +1,25 @@
 package com.Manbir.arraysandstrings.exercise1;
 
+//Write a function that when given an integer array returns it’s sum
 public class Q1 {
 
     public static void main(String[] args) {
 
-//        int[] arr1 = new int[] {1,2,3,4,5,6,7,8};
-        int[] arr1 = new int[] {};
-        System.out.println("The total is " + arraySum(arr1));
+        int[] arr = new int[] {1,2,3,5,7,32,5,7,7};
+        System.out.println("The total after the sum is: " + arraySum(arr));
+
     }
 
     private static int arraySum(int[] arr) {
-        if ((arr == null) || (arr.length == 0)){
+        if ((arr == null) || (arr.length ==  0)) {
             return -1;
         }
-       int sum = 0;
-        for (int arrays: arr) {
-            sum += arrays;
+
+        int sum = 0;
+        for (int e : arr) {
+            sum = sum + e;
         }
+
         return sum;
     }
 }

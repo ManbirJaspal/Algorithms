@@ -1,4 +1,4 @@
-package com.Manbir.arraysandstrings.exercise1.exercise2;
+package com.Manbir.arraysandstrings.exercise2;
 
 public class Q7 {
 //    Given a string, count how many times each character shows up in the string.
