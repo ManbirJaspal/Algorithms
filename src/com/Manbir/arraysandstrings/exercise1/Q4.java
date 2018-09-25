@@ -3,21 +3,23 @@ package com.Manbir.arraysandstrings.exercise1;
 public class Q4 {
 //    Write a function that when given a string array outputs “police” when it encounters “cop” and “robber” when it encounters “thief”
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
 
-        String[] str = new String[]{"cop", "thief"};
-        funcQ4(str);
+        String[] strArr = new String[] {"cop", "thief"};
+        functionQ4(strArr);
     }
 
-    public static void funcQ4(String[] arr) {
-        if ((arr == null) || (arr.length == 0)){
+    private static void functionQ4(String[] strArr){
+        if ((strArr == null) || (strArr.length == 0)){
             System.out.println("empty array");
         }
-        for (String str : arr) {
-            if (str.equals("cop")) {
-                System.out.println("police");
+
+        for (String e: strArr) {
+            if (e.equals("cop")) {
+                System.out.print("police \n");
             }
-            if (str.equals("thief")) {
+
+            if (e.equals("thief")) {
                 System.out.println("robber");
             }
         }
