@@ -1,5 +1,7 @@
 package com.Manbir.arraysandstrings.exercise1;
 
+import java.util.Arrays;
+
 public class Q3 {
 //    Write a function that when given a char array replaces all ‘b’s with ‘9’s
 
@@ -19,6 +21,6 @@ public class Q3 {
             }
         }
 
-        System.out.println("the array after replacing is: " + new String(arr));
+        System.out.println("the array after replacing is: " + Arrays.toString(arr));
     }
 }
