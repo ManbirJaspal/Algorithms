@@ -11,6 +11,10 @@ public class Q6 {
     }
 
     public static ArrayList<Integer> getNullIndex(Integer[] arr) {
+        if ((arr == null) || (arr.length == 0)){
+            System.out.println("empty array");
+        }
+
         int index = 0;
         ArrayList<Integer> nullIndexList = new ArrayList<Integer>();
         for (Integer e : arr) {
